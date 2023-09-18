@@ -1,0 +1,63 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_LAUNCHER
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_EXPORT_PACKAGE_REGISTRY
+    CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY
+    CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+    PYTHON_EXECUTABLE
+    SECURITY
+
+[0m
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:[m[K In function '[01m[Kvoid topic_time_log_close(std::string)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:131:34:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Ktopic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  131 | void topic_time_log_close([01;35m[Kstring topic[m[K)
+      |                           [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:[m[K In member function '[01m[Kvoid Subscribe::command_callback2(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:47:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   47 |     clock_t [01;35m[Ktime_temp[m[K;\
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:180:9:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[Kprintf_topic_log[m[K'
+  180 |         [01;36m[Kprintf_topic_log[m[K("command_callback2","%f",curr_time-pub_time);
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:[m[K In member function '[01m[Kvoid xingmaicx_rostopic_log::printf_topic_log(std::string, const char*, ...)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:59:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   59 |     clock_t [01;35m[Ktime_temp[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:[m[K In member function '[01m[Kvoid xingmaicx_rostopic_log::ros2_printf_topic_log(std::string, const char*, const char*, ...)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:89:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   89 |     clock_t [01;35m[Ktime_temp[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic_log.cpp:[m[K In function '[01m[Kvoid ros2_printf_topic_log(std::string, const char*, const char*, ...)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic_log.cpp:14:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   14 |     clock_t [01;35m[Ktime_temp[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libddsc.so.0, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libssl.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_binding_c.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libcrypto.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_posh.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_hoofs.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_platform.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libacl.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libattr.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common__rosidl_typesupport_cpp.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: .fini_array section has zero size
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libddsc.so.0, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libssl.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_binding_c.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libcrypto.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_posh.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_hoofs.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_platform.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libacl.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libattr.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common__rosidl_typesupport_cpp.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: .fini_array section has zero size

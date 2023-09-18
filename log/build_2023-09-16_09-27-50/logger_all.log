@@ -1,0 +1,194 @@
+[0.214s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.214s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f31493b31c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f31493b31c0>>)
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.279s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yanyu/mytest_ws'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_so) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/subscribe_and_publish' with type 'ros.ament_cmake' and name 'subscribe_and_publish'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_clean_cache' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'subscribe_and_publish' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanyu/mytest_ws/build/subscribe_and_publish', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanyu/mytest_ws/install/subscribe_and_publish', 'merge_install': False, 'path': '/home/yanyu/mytest_ws/src/subscribe_and_publish', 'symlink_install': False, 'test_result_base': None}
+[0.354s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.356s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'subscribe_and_publish'
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanyu/mytest_ws/src/subscribe_and_publish' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanyu/mytest_ws/src/subscribe_and_publish'
+[0.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/build/subscribe_and_publish/colcon_command_prefix_build.sh'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 302, in get_command_environment
+    return await extension.generate_command_environment(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 148, in generate_command_environment
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 54, in expand_template
+    with destination_path.open('w') as h:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/build/subscribe_and_publish/colcon_command_prefix_build.sh'
+
+[0.378s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[0.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(subscribe_and_publish)
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish' for CMake module files
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish' for CMake config files
+[0.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscribe_and_publish', 'cmake_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.dsv'
+[0.445s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'dsv': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.dsv'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 421, in create_environment_hook
+    hook = extension.create_hook_prepend_value(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 75, in create_hook_prepend_value
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 54, in expand_template
+    with destination_path.open('w') as h:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.dsv'
+
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.sh'
+[0.446s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.sh'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 421, in create_environment_hook
+    hook = extension.create_hook_prepend_value(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 127, in create_hook_prepend_value
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 54, in expand_template
+    with destination_path.open('w') as h:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.sh'
+
+[0.449s] ERROR:colcon.colcon_core.environment:Exception in environment extension 'cmake_prefix_path': Could not find a primary shell extension for creating an environment hook
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 191, in create_environment_hooks
+    hooks = extension.create_environment_hooks(prefix_path, pkg_name)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/environment/cmake_prefix_path.py", line 28, in create_environment_hooks
+    hooks += create_environment_hook(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 440, in create_environment_hook
+    raise RuntimeError(
+RuntimeError: Could not find a primary shell extension for creating an environment hook
+
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/bin'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib/pkgconfig/subscribe_and_publish.pc'
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib/python3.10/site-packages'
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/bin'
+[0.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv'
+[0.453s] ERROR:colcon.colcon_core.environment:Exception in shell extension 'dsv': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 139, in create_environment_scripts_only
+    scripts = extension.create_package_script(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/dsv.py", line 30, in create_package_script
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 54, in expand_template
+    with destination_path.open('w') as h:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv'
+
+[0.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.sh'
+[0.455s] ERROR:colcon.colcon_core.environment:Exception in shell extension 'sh': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.sh'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 139, in create_environment_scripts_only
+    scripts = extension.create_package_script(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 83, in create_package_script
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 54, in expand_template
+    with destination_path.open('w') as h:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.sh'
+
+[0.455s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanyu/mytest_ws/install/subscribe_and_publish/share/colcon-core/packages/subscribe_and_publish)
+[0.460s] ERROR:colcon.colcon_core.executor.sequential:Exception in job execution 'subscribe_and_publish': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/colcon-core/packages/subscribe_and_publish'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/sequential.py", line 48, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 85, in build
+    create_environment_scripts(
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 89, in create_environment_scripts
+    create_file_with_runtime_dependencies(prefix_path, pkg))
+  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 172, in create_file_with_runtime_dependencies
+    path.write_text(
+  File "/usr/lib/python3.10/pathlib.py", line 1154, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/colcon-core/packages/subscribe_and_publish'
+
+[0.461s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[0.462s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[0.462s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.462s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yanyu/mytest_ws/install/local_setup.sh'
+[0.466s] ERROR:colcon.colcon_core.verb:Exception in shell extension 'sh': [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/local_setup.sh'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/verb/build.py", line 218, in _create_prefix_scripts
+    scripts = extension.create_prefix_script(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 43, in create_prefix_script
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 54, in expand_template
+    with destination_path.open('w') as h:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+PermissionError: [Errno 13] Permission denied: '/home/yanyu/mytest_ws/install/local_setup.sh'
+

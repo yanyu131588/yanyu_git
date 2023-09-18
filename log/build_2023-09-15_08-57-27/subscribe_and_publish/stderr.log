@@ -1,0 +1,2 @@
+[0mCMake Error: The current CMakeCache.txt directory /tmp/build/subscribe_and_publish/CMakeCache.txt is different than the directory /home/yanyu/mytest_ws/build/subscribe_and_publish where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source "/tmp/src/subscribe_and_publish/CMakeLists.txt" does not match the source "/home/yanyu/mytest_ws/src/subscribe_and_publish/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

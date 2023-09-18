@@ -1,0 +1,130 @@
+[0.232s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.232s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3fa0b33190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3fa0b33190>>)
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.270s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yanyu/mytest_ws'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extension 'ros'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extensions ['cmake', 'python']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extension 'cmake'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extension 'python'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extensions ['python_setup_py']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_13_42_40) by extension 'python_setup_py'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extension 'ros'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extension 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(logs/2023_09_13_16_19_45) by extension 'python_setup_py'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/subscribe_and_publish) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/subscribe_and_publish' with type 'ros.ament_cmake' and name 'subscribe_and_publish'
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'subscribe_and_publish' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'subscribe_and_publish' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yanyu/mytest_ws/build/subscribe_and_publish', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yanyu/mytest_ws/install/subscribe_and_publish', 'merge_install': False, 'path': '/home/yanyu/mytest_ws/src/subscribe_and_publish', 'symlink_install': False, 'test_result_base': None}
+[0.390s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.391s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'subscribe_and_publish'
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yanyu/mytest_ws/src/subscribe_and_publish' with build type 'ament_cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yanyu/mytest_ws/src/subscribe_and_publish'
+[0.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanyu/mytest_ws/build/subscribe_and_publish': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yanyu/mytest_ws/build/subscribe_and_publish -- -j2 -l2
+[6.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanyu/mytest_ws/build/subscribe_and_publish' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yanyu/mytest_ws/build/subscribe_and_publish -- -j2 -l2
+[6.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yanyu/mytest_ws/build/subscribe_and_publish': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yanyu/mytest_ws/build/subscribe_and_publish
+[6.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(subscribe_and_publish)
+[6.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yanyu/mytest_ws/build/subscribe_and_publish' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yanyu/mytest_ws/build/subscribe_and_publish
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish' for CMake module files
+[6.085s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish' for CMake config files
+[6.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscribe_and_publish', 'cmake_prefix_path')
+[6.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.dsv'
+[6.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.sh'
+[6.088s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib'
+[6.088s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/bin'
+[6.088s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib/pkgconfig/subscribe_and_publish.pc'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib/python3.10/site-packages'
+[6.090s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/bin'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv'
+[6.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.sh'
+[6.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanyu/mytest_ws/install/subscribe_and_publish/share/colcon-core/packages/subscribe_and_publish)
+[6.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(subscribe_and_publish)
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish' for CMake module files
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish' for CMake config files
+[6.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('subscribe_and_publish', 'cmake_prefix_path')
+[6.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.dsv'
+[6.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/hook/cmake_prefix_path.sh'
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib'
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/bin'
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib/pkgconfig/subscribe_and_publish.pc'
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/lib/python3.10/site-packages'
+[6.134s] Level 1:colcon.colcon_core.environment:checking '/home/yanyu/mytest_ws/install/subscribe_and_publish/bin'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/yanyu/mytest_ws/install/subscribe_and_publish/share/subscribe_and_publish/package.sh'
+[6.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yanyu/mytest_ws/install/subscribe_and_publish/share/colcon-core/packages/subscribe_and_publish)
+[6.136s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'subscribe_and_publish' finished with '0'
+[6.136s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[6.137s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[6.137s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.137s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yanyu/mytest_ws/install/local_setup.sh'
+[6.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yanyu/mytest_ws/install/_local_setup_util_sh.py'
+[6.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yanyu/mytest_ws/install/setup.sh'

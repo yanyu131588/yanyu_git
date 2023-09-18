@@ -1,0 +1,122 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/ament_cmake/cmake)
+-- Found Python3: /home/way/code/apollo/out/host/bin/python3.10 (found version "3.10.7") found components: Interpreter 
+-- Found rclcpp: 16.0.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/libcrypto.so (found version "1.1.1s")  
+-- Found FastRTPS: /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found std_msgs: 4.2.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/std_msgs/cmake)
+-- Found geometry_msgs: 4.2.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/geometry_msgs/cmake)
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_LAUNCHER
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_EXPORT_PACKAGE_REGISTRY
+    CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY
+    CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+    PYTHON_EXECUTABLE
+    SECURITY
+
+[0m
+-- Build files have been written to: /tmp/build/subscribe_and_publish
+[ 33%] [32mBuilding CXX object CMakeFiles/subscribe1.dir/src/subscribe1.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:[m[K In function '[01m[Kvoid topic_time_log_close(std::string)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:131:34:[m[K [01;35m[Kwarning: [m[Kunused parameter '[01m[Ktopic[m[K' [[01;35m[K-Wunused-parameter[m[K]
+  131 | void topic_time_log_close([01;35m[Kstring topic[m[K)
+      |                           [01;35m[K~~~~~~~^~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:[m[K In member function '[01m[Kvoid Subscribe::command_callback2(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:47:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   47 |     clock_t [01;35m[Ktime_temp[m[K;\
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:180:9:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[Kprintf_topic_log[m[K'
+  180 |         [01;36m[Kprintf_topic_log[m[K("command_callback2","%f",curr_time-pub_time);
+      |         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/xingmaicx_rostopic.cpp.o[0m
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:[m[K In member function '[01m[Kvoid xingmaicx_rostopic_log::printf_topic_log(std::string, const char*, ...)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:59:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   59 |     clock_t [01;35m[Ktime_temp[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:[m[K In member function '[01m[Kvoid xingmaicx_rostopic_log::ros2_printf_topic_log(std::string, const char*, const char*, ...)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:89:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   89 |     clock_t [01;35m[Ktime_temp[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[ 66%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/xingmaicx_rostopic_log.cpp.o[0m
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic_log.cpp:[m[K In function '[01m[Kvoid ros2_printf_topic_log(std::string, const char*, const char*, ...)[m[K':
+[01m[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic_log.cpp:14:13:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Ktime_temp[m[K' [[01;35m[K-Wunused-variable[m[K]
+   14 |     clock_t [01;35m[Ktime_temp[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX executable publisher[0m
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libddsc.so.0, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libssl.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_binding_c.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libcrypto.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_posh.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_hoofs.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_platform.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libacl.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libattr.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common__rosidl_typesupport_cpp.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: .fini_array section has zero size
+[ 83%] Built target publisher
+[100%] [32m[1mLinking CXX executable subscribe1[0m
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libddsc.so.0, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libssl.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_binding_c.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libcrypto.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_posh.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_hoofs.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_platform.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libacl.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libattr.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common__rosidl_typesupport_cpp.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)
+/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: .fini_array section has zero size
+[100%] Built target subscribe1
+-- Install configuration: "Release"
+-- Installing: /tmp/install/subscribe_and_publish/lib/subscribe_and_publish/publisher
+-- Installing: /tmp/install/subscribe_and_publish/lib/subscribe_and_publish/subscribe1
+-- Installing: /tmp/install/subscribe_and_publish/share/ament_index/resource_index/package_run_dependencies/subscribe_and_publish
+-- Installing: /tmp/install/subscribe_and_publish/share/ament_index/resource_index/parent_prefix_path/subscribe_and_publish
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/ament_prefix_path.sh
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/ament_prefix_path.dsv
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/path.sh
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/path.dsv
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.bash
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.sh
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.zsh
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.dsv
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv
+-- Installing: /tmp/install/subscribe_and_publish/share/ament_index/resource_index/packages/subscribe_and_publish
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/cmake/subscribe_and_publishConfig.cmake
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/cmake/subscribe_and_publishConfig-version.cmake
+-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/package.xml

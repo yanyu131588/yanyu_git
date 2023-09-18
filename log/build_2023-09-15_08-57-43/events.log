@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (subscribe_and_publish) JobQueued: {'identifier': 'subscribe_and_publish', 'dependencies': OrderedDict()}
+[0.000274] (subscribe_and_publish) JobStarted: {'identifier': 'subscribe_and_publish'}
+[0.022832] (subscribe_and_publish) JobProgress: {'identifier': 'subscribe_and_publish', 'progress': 'cmake'}
+[0.023291] (subscribe_and_publish) Command: {'cmd': ['/home/way/code/apollo/out/host/bin/cmake', '/tmp/src/subscribe_and_publish', '-DCMAKE_SYSTEM_NAME=Linux', '-DCMAKE_SYSTEM_VERSION=1', '-DCMAKE_SYSTEM_PROCESSOR=arm', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_C_FLAGS_RELEASE=-DNDEBUG', '-DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG', '-DCMAKE_C_COMPILER_LAUNCHER=', '-DCMAKE_C_COMPILER=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc', '-DCMAKE_CXX_COMPILER_LAUNCHER=', '-DCMAKE_CXX_COMPILER=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-g++', '-DCMAKE_ASM_COMPILER_LAUNCHER=', '-DCMAKE_ASM_COMPILER=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc', '-DCMAKE_EXE_LINKER_FLAGS:STRING=-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro -lrcpputils -lrcutils -lspdlog -lfmt -lz', '-DCMAKE_MODULE_LINKER_FLAGS:STRING=-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro -lrcpputils -lrcutils -lspdlog -lfmt -lz -Wl,-Bsymbolic-functions', '-DCMAKE_SHARED_LINKER_FLAGS:STRING=-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro -lrcpputils -lrcutils -lspdlog -lfmt -lz -Wl,-Bsymbolic-functions', '-DCMAKE_AR=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc-ar', '-DCMAKE_NM=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc-nm', '-DCMAKE_RANLIB=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc-ranlib', '-DCMAKE_FIND_ROOT_PATH=/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr;/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain', '-DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=BOTH', '-DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY', '-DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY', '-DCMAKE_STRIP=/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-strip', '-DCMAKE_INSTALL_PREFIX=/usr', '-DDL_LIBRARY=/home/way/code/apollo/out/mr133-perf1/staging_dir/target', '-DCMAKE_PREFIX_PATH=/home/way/code/apollo/out/mr133-perf1/staging_dir/target', '-DCMAKE_SKIP_RPATH=TRUE', '-DCMAKE_EXPORT_PACKAGE_REGISTRY=FALSE', '-DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=TRUE', '-DCMAKE_FIND_USE_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=TRUE', '-DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=FALSE', '-DCMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY=TRUE', '-DPython3_EXECUTABLE=/home/way/code/apollo/out/host/bin/python3.10', '-DPYTHON_EXECUTABLE=/home/way/code/apollo/out/host/bin/python3.10', '-DBUILD_TESTING=OFF', '-DSECURITY=ON', '-DCMAKE_INSTALL_PREFIX=/tmp/install/subscribe_and_publish'], 'cwd': '/tmp/build/subscribe_and_publish', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CMAKE_COMMAND', '/home/way/code/apollo/out/host/bin/cmake'), ('CXXFLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('HOSTNAME', 'f4ec214c611a'), ('_python_exec_prefix', '/usr'), ('LDSHARED', 'arm-openwrt-linux-gnueabi-gcc -shared'), ('SHLVL', '2'), ('HOME', '/root'), ('OLDPWD', '/'), ('CCSHARED', 'arm-openwrt-linux-gnueabi-gcc -fpic'), ('PYTHONOPTIMIZE', ''), ('LDFLAGS', '-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro -lrcpputils -lrcutils -lspdlog -lfmt -lz -lpython3.10'), ('LC_CTYPE', 'C.UTF-8'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CROSS_COMPILE', '/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-'), ('_', '/home/way/code/apollo/out/host/bin/colcon'), ('TERM', 'xterm'), ('_PYTHON_HOST_PLATFORM', 'linux-arm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('CFLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('TARGET_LDFLAGS', '-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr'), ('CPPFLAGS', '-I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain/usr/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include/python3.10'), ('STAGING_DIR', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target'), ('HOST_BIN', '/home/way/code/apollo/out/host/bin'), ('_python_sysroot', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target'), ('CXX', 'arm-openwrt-linux-gnueabi-g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TARGET_GCC', 'arm-openwrt-linux-gnueabi-gcc'), ('PWD', '/tmp/build/subscribe_and_publish'), ('LD', 'arm-openwrt-linux-gnueabi-gcc'), ('_python_prefix', '/usr'), ('PYTHONPATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/python3.10:/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/python3.10/site-packages:/usr/lib/python3.10/site-packages'), ('__PYVENV_LAUNCHER__', '/usr/bin/python3.10'), ('CC', 'arm-openwrt-linux-gnueabi-gcc'), ('TARGET_FLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr')]), 'shell': False}
+[0.094567] (-) TimerEvent: {}
+[0.136803] (subscribe_and_publish) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.195249] (-) TimerEvent: {}
+[0.279934] (subscribe_and_publish) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.296413] (-) TimerEvent: {}
+[0.297962] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401552] (-) TimerEvent: {}
+[0.414553] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.422920] (subscribe_and_publish) StdoutLine: {'line': b'-- Check for working C compiler: /home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-gcc - skipped\n'}
+[0.423360] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.423919] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.427693] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501975] (-) TimerEvent: {}
+[0.554871] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.565283] (subscribe_and_publish) StdoutLine: {'line': b'-- Check for working CXX compiler: /home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-g++ - skipped\n'}
+[0.565541] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.565739] (subscribe_and_publish) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.570737] (subscribe_and_publish) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/ament_cmake/cmake)\n'}
+[0.608083] (-) TimerEvent: {}
+[0.713481] (-) TimerEvent: {}
+[0.815139] (-) TimerEvent: {}
+[0.925527] (-) TimerEvent: {}
+[1.029195] (-) TimerEvent: {}
+[1.132573] (-) TimerEvent: {}
+[1.242512] (-) TimerEvent: {}
+[1.353321] (-) TimerEvent: {}
+[1.463233] (-) TimerEvent: {}
+[1.469687] (subscribe_and_publish) StdoutLine: {'line': b'-- Found Python3: /home/way/code/apollo/out/host/bin/python3.10 (found version "3.10.7") found components: Interpreter \n'}
+[1.563518] (-) TimerEvent: {}
+[1.670808] (-) TimerEvent: {}
+[1.779613] (-) TimerEvent: {}
+[1.884982] (-) TimerEvent: {}
+[1.921798] (subscribe_and_publish) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rclcpp/cmake)\n'}
+[1.986155] (-) TimerEvent: {}
+[2.010709] (subscribe_and_publish) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rosidl_generator_c/cmake)\n'}
+[2.023073] (subscribe_and_publish) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rosidl_adapter/cmake)\n'}
+[2.043501] (subscribe_and_publish) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rosidl_generator_cpp/cmake)\n'}
+[2.086968] (subscribe_and_publish) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.087228] (-) TimerEvent: {}
+[2.128709] (subscribe_and_publish) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.196922] (-) TimerEvent: {}
+[2.260058] (subscribe_and_publish) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rmw_implementation_cmake/cmake)\n'}
+[2.268144] (subscribe_and_publish) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.298095] (-) TimerEvent: {}
+[2.377261] (subscribe_and_publish) StdoutLine: {'line': b'-- Found OpenSSL: /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/libcrypto.so (found version "1.1.1s")  \n'}
+[2.402281] (subscribe_and_publish) StdoutLine: {'line': b'-- Found FastRTPS: /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include  \n'}
+[2.402485] (-) TimerEvent: {}
+[2.442490] (subscribe_and_publish) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.460070] (subscribe_and_publish) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.506304] (-) TimerEvent: {}
+[2.589530] (subscribe_and_publish) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.591107] (subscribe_and_publish) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.609126] (-) TimerEvent: {}
+[2.712782] (-) TimerEvent: {}
+[2.771714] (subscribe_and_publish) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/std_msgs/cmake)\n'}
+[2.814129] (-) TimerEvent: {}
+[2.837429] (subscribe_and_publish) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/share/geometry_msgs/cmake)\n'}
+[2.922913] (-) TimerEvent: {}
+[3.033342] (-) TimerEvent: {}
+[3.143185] (-) TimerEvent: {}
+[3.227442] (subscribe_and_publish) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.255104] (-) TimerEvent: {}
+[3.275422] (subscribe_and_publish) StdoutLine: {'line': b'-- Generating done\n'}
+[3.277382] (subscribe_and_publish) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[3.277568] (subscribe_and_publish) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[3.277653] (subscribe_and_publish) StderrLine: {'line': b'\n'}
+[3.277727] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_ASM_COMPILER\n'}
+[3.277803] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_ASM_COMPILER_LAUNCHER\n'}
+[3.277876] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_EXPORT_NO_PACKAGE_REGISTRY\n'}
+[3.277949] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_EXPORT_PACKAGE_REGISTRY\n'}
+[3.278025] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY\n'}
+[3.278097] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY\n'}
+[3.278194] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_MODULE_LINKER_FLAGS\n'}
+[3.278271] (subscribe_and_publish) StderrLine: {'line': b'    CMAKE_SHARED_LINKER_FLAGS\n'}
+[3.278345] (subscribe_and_publish) StderrLine: {'line': b'    DL_LIBRARY\n'}
+[3.278418] (subscribe_and_publish) StderrLine: {'line': b'    PYTHON_EXECUTABLE\n'}
+[3.278490] (subscribe_and_publish) StderrLine: {'line': b'    SECURITY\n'}
+[3.278562] (subscribe_and_publish) StderrLine: {'line': b'\n'}
+[3.278634] (subscribe_and_publish) StderrLine: {'line': b'\x1b[0m\n'}
+[3.279634] (subscribe_and_publish) StdoutLine: {'line': b'-- Build files have been written to: /tmp/build/subscribe_and_publish\n'}
+[3.289048] (subscribe_and_publish) CommandEnded: {'returncode': 0}
+[3.289784] (subscribe_and_publish) JobProgress: {'identifier': 'subscribe_and_publish', 'progress': 'build'}
+[3.289827] (subscribe_and_publish) Command: {'cmd': ['/home/way/code/apollo/out/host/bin/cmake', '--build', '/tmp/build/subscribe_and_publish', '--', '-j2', '-l2'], 'cwd': '/tmp/build/subscribe_and_publish', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CMAKE_COMMAND', '/home/way/code/apollo/out/host/bin/cmake'), ('CXXFLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('HOSTNAME', 'f4ec214c611a'), ('_python_exec_prefix', '/usr'), ('LDSHARED', 'arm-openwrt-linux-gnueabi-gcc -shared'), ('SHLVL', '2'), ('HOME', '/root'), ('OLDPWD', '/'), ('CCSHARED', 'arm-openwrt-linux-gnueabi-gcc -fpic'), ('PYTHONOPTIMIZE', ''), ('LDFLAGS', '-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro -lrcpputils -lrcutils -lspdlog -lfmt -lz -lpython3.10'), ('LC_CTYPE', 'C.UTF-8'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CROSS_COMPILE', '/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-'), ('_', '/home/way/code/apollo/out/host/bin/colcon'), ('TERM', 'xterm'), ('_PYTHON_HOST_PLATFORM', 'linux-arm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('CFLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('TARGET_LDFLAGS', '-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr'), ('CPPFLAGS', '-I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain/usr/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include/python3.10'), ('STAGING_DIR', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target'), ('HOST_BIN', '/home/way/code/apollo/out/host/bin'), ('_python_sysroot', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target'), ('CXX', 'arm-openwrt-linux-gnueabi-g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TARGET_GCC', 'arm-openwrt-linux-gnueabi-gcc'), ('PWD', '/tmp/build/subscribe_and_publish'), ('LD', 'arm-openwrt-linux-gnueabi-gcc'), ('_python_prefix', '/usr'), ('PYTHONPATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/python3.10:/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/python3.10/site-packages:/usr/lib/python3.10/site-packages'), ('__PYVENV_LAUNCHER__', '/usr/bin/python3.10'), ('CC', 'arm-openwrt-linux-gnueabi-gcc'), ('TARGET_FLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr')]), 'shell': False}
+[3.320170] (subscribe_and_publish) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/subscribe1.dir/src/subscribe1.cpp.o\x1b[0m\n'}
+[3.320405] (subscribe_and_publish) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.355719] (-) TimerEvent: {}
+[3.458136] (-) TimerEvent: {}
+[3.565094] (-) TimerEvent: {}
+[3.666993] (-) TimerEvent: {}
+[3.767730] (-) TimerEvent: {}
+[3.868632] (-) TimerEvent: {}
+[3.969059] (-) TimerEvent: {}
+[4.069386] (-) TimerEvent: {}
+[4.169713] (-) TimerEvent: {}
+[4.270196] (-) TimerEvent: {}
+[4.372231] (-) TimerEvent: {}
+[4.474662] (-) TimerEvent: {}
+[4.577169] (-) TimerEvent: {}
+[4.677486] (-) TimerEvent: {}
+[4.778815] (-) TimerEvent: {}
+[4.879588] (-) TimerEvent: {}
+[4.980693] (-) TimerEvent: {}
+[5.081385] (-) TimerEvent: {}
+[5.185619] (-) TimerEvent: {}
+[5.290487] (-) TimerEvent: {}
+[5.393131] (-) TimerEvent: {}
+[5.494018] (-) TimerEvent: {}
+[5.602960] (-) TimerEvent: {}
+[5.703758] (-) TimerEvent: {}
+[5.806229] (-) TimerEvent: {}
+[5.908228] (-) TimerEvent: {}
+[6.008902] (-) TimerEvent: {}
+[6.109543] (-) TimerEvent: {}
+[6.211902] (-) TimerEvent: {}
+[6.312521] (-) TimerEvent: {}
+[6.418743] (-) TimerEvent: {}
+[6.522268] (-) TimerEvent: {}
+[6.622796] (-) TimerEvent: {}
+[6.723348] (-) TimerEvent: {}
+[6.823839] (-) TimerEvent: {}
+[6.925596] (-) TimerEvent: {}
+[7.028338] (-) TimerEvent: {}
+[7.128712] (-) TimerEvent: {}
+[7.233134] (-) TimerEvent: {}
+[7.333653] (-) TimerEvent: {}
+[7.434125] (-) TimerEvent: {}
+[7.534812] (-) TimerEvent: {}
+[7.635134] (-) TimerEvent: {}
+[7.739048] (-) TimerEvent: {}
+[7.839554] (-) TimerEvent: {}
+[7.940418] (-) TimerEvent: {}
+[8.054474] (-) TimerEvent: {}
+[8.155244] (-) TimerEvent: {}
+[8.255793] (-) TimerEvent: {}
+[8.356408] (-) TimerEvent: {}
+[8.457519] (-) TimerEvent: {}
+[8.558592] (-) TimerEvent: {}
+[8.659779] (-) TimerEvent: {}
+[8.760377] (-) TimerEvent: {}
+[8.861213] (-) TimerEvent: {}
+[8.961850] (-) TimerEvent: {}
+[9.034178] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kvoid topic_time_log_close(std::string)\x1b[m\x1b[K':\n"}
+[9.053346] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:131:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter '\x1b[01m\x1b[Ktopic\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n"}
+[9.053583] (subscribe_and_publish) StderrLine: {'line': b'  131 | void topic_time_log_close(\x1b[01;35m\x1b[Kstring topic\x1b[m\x1b[K)\n'}
+[9.053709] (subscribe_and_publish) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.062457] (-) TimerEvent: {}
+[9.163420] (-) TimerEvent: {}
+[9.262460] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid Subscribe::command_callback2(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K':\n"}
+[9.262807] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:47:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable '\x1b[01m\x1b[Ktime_temp\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n"}
+[9.262931] (subscribe_and_publish) StderrLine: {'line': b'   47 |     clock_t \x1b[01;35m\x1b[Ktime_temp\x1b[m\x1b[K;\\\n'}
+[9.263053] (subscribe_and_publish) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.263203] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/subscribe1.cpp:180:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro '\x1b[01m\x1b[Kprintf_topic_log\x1b[m\x1b[K'\n"}
+[9.263335] (subscribe_and_publish) StderrLine: {'line': b'  180 |         \x1b[01;36m\x1b[Kprintf_topic_log\x1b[m\x1b[K("command_callback2","%f",curr_time-pub_time);\n'}
+[9.263477] (-) TimerEvent: {}
+[9.263511] (subscribe_and_publish) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.364171] (-) TimerEvent: {}
+[9.464908] (-) TimerEvent: {}
+[9.565528] (-) TimerEvent: {}
+[9.666282] (-) TimerEvent: {}
+[9.766642] (-) TimerEvent: {}
+[9.867231] (-) TimerEvent: {}
+[9.975057] (-) TimerEvent: {}
+[10.075390] (-) TimerEvent: {}
+[10.176316] (-) TimerEvent: {}
+[10.276965] (-) TimerEvent: {}
+[10.381266] (-) TimerEvent: {}
+[10.481679] (-) TimerEvent: {}
+[10.585339] (-) TimerEvent: {}
+[10.689886] (-) TimerEvent: {}
+[10.790911] (-) TimerEvent: {}
+[10.891577] (-) TimerEvent: {}
+[10.993346] (-) TimerEvent: {}
+[11.093813] (-) TimerEvent: {}
+[11.196701] (-) TimerEvent: {}
+[11.297577] (-) TimerEvent: {}
+[11.401452] (-) TimerEvent: {}
+[11.506428] (-) TimerEvent: {}
+[11.607783] (-) TimerEvent: {}
+[11.715464] (-) TimerEvent: {}
+[11.822032] (-) TimerEvent: {}
+[11.925330] (-) TimerEvent: {}
+[12.025934] (-) TimerEvent: {}
+[12.130164] (-) TimerEvent: {}
+[12.242157] (-) TimerEvent: {}
+[12.347159] (-) TimerEvent: {}
+[12.450548] (-) TimerEvent: {}
+[12.553004] (-) TimerEvent: {}
+[12.653615] (-) TimerEvent: {}
+[12.659460] (subscribe_and_publish) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/xingmaicx_rostopic.cpp.o\x1b[0m\n'}
+[12.753763] (-) TimerEvent: {}
+[12.854073] (-) TimerEvent: {}
+[12.963106] (-) TimerEvent: {}
+[13.067872] (-) TimerEvent: {}
+[13.172315] (-) TimerEvent: {}
+[13.210311] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid xingmaicx_rostopic_log::printf_topic_log(std::string, const char*, ...)\x1b[m\x1b[K':\n"}
+[13.210842] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:59:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable '\x1b[01m\x1b[Ktime_temp\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n"}
+[13.210923] (subscribe_and_publish) StderrLine: {'line': b'   59 |     clock_t \x1b[01;35m\x1b[Ktime_temp\x1b[m\x1b[K;\n'}
+[13.211005] (subscribe_and_publish) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.212320] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:\x1b[m\x1b[K In member function '\x1b[01m\x1b[Kvoid xingmaicx_rostopic_log::ros2_printf_topic_log(std::string, const char*, const char*, ...)\x1b[m\x1b[K':\n"}
+[13.212474] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic.cpp:89:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable '\x1b[01m\x1b[Ktime_temp\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n"}
+[13.212539] (subscribe_and_publish) StderrLine: {'line': b'   89 |     clock_t \x1b[01;35m\x1b[Ktime_temp\x1b[m\x1b[K;\n'}
+[13.212600] (subscribe_and_publish) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.274617] (-) TimerEvent: {}
+[13.311677] (subscribe_and_publish) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/xingmaicx_rostopic_log.cpp.o\x1b[0m\n'}
+[13.382782] (-) TimerEvent: {}
+[13.486898] (-) TimerEvent: {}
+[13.587172] (-) TimerEvent: {}
+[13.661023] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic_log.cpp:\x1b[m\x1b[K In function '\x1b[01m\x1b[Kvoid ros2_printf_topic_log(std::string, const char*, const char*, ...)\x1b[m\x1b[K':\n"}
+[13.661217] (subscribe_and_publish) StderrLine: {'line': b"\x1b[01m\x1b[K/tmp/src/subscribe_and_publish/src/xingmaicx_rostopic_log.cpp:14:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable '\x1b[01m\x1b[Ktime_temp\x1b[m\x1b[K' [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n"}
+[13.661296] (subscribe_and_publish) StderrLine: {'line': b'   14 |     clock_t \x1b[01;35m\x1b[Ktime_temp\x1b[m\x1b[K;\n'}
+[13.661358] (subscribe_and_publish) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.688375] (-) TimerEvent: {}
+[13.731082] (subscribe_and_publish) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[13.789162] (-) TimerEvent: {}
+[13.889506] (-) TimerEvent: {}
+[13.943009] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libddsc.so.0, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.943672] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libssl.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.943811] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_binding_c.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.944146] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libcrypto.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.944549] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_posh.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.944929] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_hoofs.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.945276] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_platform.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.945672] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libacl.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.946080] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libattr.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.946435] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.946843] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common__rosidl_typesupport_cpp.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[13.997059] (-) TimerEvent: {}
+[14.050853] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: .fini_array section has zero size\n'}
+[14.060875] (subscribe_and_publish) StdoutLine: {'line': b'[ 83%] Built target publisher\n'}
+[14.103436] (-) TimerEvent: {}
+[14.207123] (-) TimerEvent: {}
+[14.309953] (-) TimerEvent: {}
+[14.414476] (-) TimerEvent: {}
+[14.516585] (-) TimerEvent: {}
+[14.629178] (-) TimerEvent: {}
+[14.733306] (-) TimerEvent: {}
+[14.837225] (-) TimerEvent: {}
+[14.943894] (-) TimerEvent: {}
+[15.045518] (-) TimerEvent: {}
+[15.153464] (-) TimerEvent: {}
+[15.254415] (-) TimerEvent: {}
+[15.364395] (-) TimerEvent: {}
+[15.466272] (-) TimerEvent: {}
+[15.581330] (-) TimerEvent: {}
+[15.691952] (-) TimerEvent: {}
+[15.802830] (-) TimerEvent: {}
+[15.914946] (-) TimerEvent: {}
+[16.023615] (-) TimerEvent: {}
+[16.135229] (-) TimerEvent: {}
+[16.247223] (-) TimerEvent: {}
+[16.354847] (-) TimerEvent: {}
+[16.455976] (-) TimerEvent: {}
+[16.556415] (-) TimerEvent: {}
+[16.671573] (-) TimerEvent: {}
+[16.781718] (-) TimerEvent: {}
+[16.891316] (-) TimerEvent: {}
+[17.003148] (-) TimerEvent: {}
+[17.108841] (-) TimerEvent: {}
+[17.211062] (-) TimerEvent: {}
+[17.320884] (-) TimerEvent: {}
+[17.432635] (-) TimerEvent: {}
+[17.544502] (-) TimerEvent: {}
+[17.645395] (-) TimerEvent: {}
+[17.746116] (-) TimerEvent: {}
+[17.848182] (-) TimerEvent: {}
+[17.948834] (-) TimerEvent: {}
+[18.049693] (-) TimerEvent: {}
+[18.154104] (-) TimerEvent: {}
+[18.254384] (-) TimerEvent: {}
+[18.354859] (-) TimerEvent: {}
+[18.455273] (-) TimerEvent: {}
+[18.558845] (-) TimerEvent: {}
+[18.659535] (-) TimerEvent: {}
+[18.764619] (-) TimerEvent: {}
+[18.880269] (-) TimerEvent: {}
+[18.981484] (-) TimerEvent: {}
+[19.082878] (-) TimerEvent: {}
+[19.183431] (-) TimerEvent: {}
+[19.289525] (-) TimerEvent: {}
+[19.390492] (-) TimerEvent: {}
+[19.492518] (-) TimerEvent: {}
+[19.593007] (-) TimerEvent: {}
+[19.697791] (-) TimerEvent: {}
+[19.798087] (-) TimerEvent: {}
+[19.898474] (-) TimerEvent: {}
+[20.003530] (-) TimerEvent: {}
+[20.108805] (-) TimerEvent: {}
+[20.211038] (-) TimerEvent: {}
+[20.315412] (-) TimerEvent: {}
+[20.419509] (-) TimerEvent: {}
+[20.520295] (-) TimerEvent: {}
+[20.621850] (-) TimerEvent: {}
+[20.724297] (-) TimerEvent: {}
+[20.825951] (-) TimerEvent: {}
+[20.930965] (-) TimerEvent: {}
+[21.032704] (-) TimerEvent: {}
+[21.133688] (-) TimerEvent: {}
+[21.236186] (-) TimerEvent: {}
+[21.255236] (subscribe_and_publish) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscribe1\x1b[0m\n'}
+[21.337084] (-) TimerEvent: {}
+[21.360028] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libddsc.so.0, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.360222] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libssl.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.360288] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_binding_c.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.360365] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libcrypto.so.1.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.360668] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_posh.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.360770] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_hoofs.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.360985] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libiceoryx_platform.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.361209] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libacl.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.361430] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: libattr.so.1, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.361648] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.361864] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: librmw_dds_common__rosidl_typesupport_cpp.so, needed by /home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/librcl.so, not found (try using -rpath or -rpath-link)\n'}
+[21.442627] (-) TimerEvent: {}
+[21.538166] (subscribe_and_publish) StderrLine: {'line': b'/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib/gcc/arm-openwrt-linux-gnueabi/11.3.0/../../../../arm-openwrt-linux-gnueabi/bin/ld: warning: .fini_array section has zero size\n'}
+[21.543157] (-) TimerEvent: {}
+[21.545806] (subscribe_and_publish) StdoutLine: {'line': b'[100%] Built target subscribe1\n'}
+[21.650832] (subscribe_and_publish) CommandEnded: {'returncode': 0}
+[21.704728] (-) TimerEvent: {}
+[21.788644] (subscribe_and_publish) JobProgress: {'identifier': 'subscribe_and_publish', 'progress': 'install'}
+[21.810133] (-) TimerEvent: {}
+[21.842004] (subscribe_and_publish) Command: {'cmd': ['/home/way/code/apollo/out/host/bin/cmake', '--install', '/tmp/build/subscribe_and_publish'], 'cwd': '/tmp/build/subscribe_and_publish', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CMAKE_COMMAND', '/home/way/code/apollo/out/host/bin/cmake'), ('CXXFLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('HOSTNAME', 'f4ec214c611a'), ('_python_exec_prefix', '/usr'), ('LDSHARED', 'arm-openwrt-linux-gnueabi-gcc -shared'), ('SHLVL', '2'), ('HOME', '/root'), ('OLDPWD', '/'), ('CCSHARED', 'arm-openwrt-linux-gnueabi-gcc -fpic'), ('PYTHONOPTIMIZE', ''), ('LDFLAGS', '-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro -lrcpputils -lrcutils -lspdlog -lfmt -lz -lpython3.10'), ('LC_CTYPE', 'C.UTF-8'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CROSS_COMPILE', '/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/bin/arm-openwrt-linux-gnueabi-'), ('_', '/home/way/code/apollo/out/host/bin/colcon'), ('TERM', 'xterm'), ('_PYTHON_HOST_PLATFORM', 'linux-arm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('CFLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('TARGET_LDFLAGS', '-L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/target/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/usr/lib -L/home/way/code/apollo/out/mr133-perf1/staging_dir/toolchain/lib -znow -zrelro'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr'), ('CPPFLAGS', '-I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain/usr/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/../toolchain/include -I/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/include/python3.10'), ('STAGING_DIR', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target'), ('HOST_BIN', '/home/way/code/apollo/out/host/bin'), ('_python_sysroot', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target'), ('CXX', 'arm-openwrt-linux-gnueabi-g++'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TARGET_GCC', 'arm-openwrt-linux-gnueabi-gcc'), ('PWD', '/tmp/build/subscribe_and_publish'), ('LD', 'arm-openwrt-linux-gnueabi-gcc'), ('_python_prefix', '/usr'), ('PYTHONPATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/python3.10:/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr/lib/python3.10/site-packages:/usr/lib/python3.10/site-packages'), ('__PYVENV_LAUNCHER__', '/usr/bin/python3.10'), ('CC', 'arm-openwrt-linux-gnueabi-gcc'), ('TARGET_FLAGS', '-fdiagnostics-color=auto -Os -pipe -fno-caller-saves -Wno-unused-result -mfloat-abi=hard  -Wformat -Werror=format-security -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/way/code/apollo/out/mr133-perf1/staging_dir/target/usr')]), 'shell': False}
+[21.857462] (subscribe_and_publish) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[21.858131] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/lib/subscribe_and_publish/publisher\n'}
+[21.858498] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/lib/subscribe_and_publish/subscribe1\n'}
+[21.859754] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/ament_index/resource_index/package_run_dependencies/subscribe_and_publish\n'}
+[21.860332] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/ament_index/resource_index/parent_prefix_path/subscribe_and_publish\n'}
+[21.860795] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/ament_prefix_path.sh\n'}
+[21.861207] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/ament_prefix_path.dsv\n'}
+[21.861831] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/path.sh\n'}
+[21.863401] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/environment/path.dsv\n'}
+[21.863734] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.bash\n'}
+[21.864095] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.sh\n'}
+[21.864570] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.zsh\n'}
+[21.865002] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/local_setup.dsv\n'}
+[21.865405] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/package.dsv\n'}
+[21.865932] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/ament_index/resource_index/packages/subscribe_and_publish\n'}
+[21.866186] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/cmake/subscribe_and_publishConfig.cmake\n'}
+[21.866478] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/cmake/subscribe_and_publishConfig-version.cmake\n'}
+[21.866886] (subscribe_and_publish) StdoutLine: {'line': b'-- Installing: /tmp/install/subscribe_and_publish/share/subscribe_and_publish/package.xml\n'}
+[21.874558] (subscribe_and_publish) CommandEnded: {'returncode': 0}
+[21.915287] (-) TimerEvent: {}
+[22.018575] (-) TimerEvent: {}
+[22.120551] (-) TimerEvent: {}
+[22.226109] (-) TimerEvent: {}
+[22.274238] (subscribe_and_publish) JobEnded: {'identifier': 'subscribe_and_publish', 'rc': 0}
+[22.297996] (-) EventReactorShutdown: {}
